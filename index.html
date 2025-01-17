@@ -1,35 +1,127 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <!-- Title -->
-        <title>Nolaraj Poudel_ Structural Engineer, Programmer, Researcher and Civil Servant</title>
-        <link rel="icon" type="image/png" href="img/addYourPhotos.png">
+<head>
+    <!-- Title -->
+    <title>Prem Thapa Magar - Portfolio</title>
+    <link rel="icon" type="image/png" href="img/myPhoto.png">
 
-        <!-- Metas -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Css Libraries -->
-        <link rel="stylesheet" href="library/bootstrap/bootstrap.css">
-        <link rel="stylesheet" href="library/font-awesome/css/all.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/custom.css">
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="library/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="library/font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-        <!-- Js Libraries -->
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/smooth-scroll.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/wow.js"></script>
-    </head>
-    <body>
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="container-fluid p-5 text-center bg-primary text-white">
+        <h1 class="animated wow fadeInDown">Prem Thapa Magar</h1>
+        <p class="animated wow fadeInUp">Structural Engineer | Programmer | Researcher</p>
+        <a href="#about" class="btn btn-light btn-lg animated wow fadeIn">Learn More</a>
+    </header>
 
-        <div class="container animated wow fadeIn" style="background-color: rgb(185, 229, 185);">
-            Rabin <i class="fa-brands fa-instagram"></i>
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-4 animated wow fadeIn">About Me</h2>
+        <div class="row">
+            <div class="col-md-4 text-center animated wow fadeInLeft">
+                <img src="img/profile.jpg" alt="Prem Thapa Magar" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8 animated wow fadeInRight">
+                <p>
+                    Hi, I'm Prem Thapa Magar from Tanahun, Nepal. With a passion for engineering, coding, and research,
+                    I strive to create impactful solutions to real-world problems. I'm also a proud supporter of the
+                    Karnali Yaks in the Nepal Premier League!
+                </p>
+                <p>
+                    Let's connect and work together to build a brighter future.
+                </p>
+            </div>
         </div>
+    </section>
 
-        <script>
-            new WOW().init()
-        </script>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animated wow fadeIn">My Work</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 animated wow fadeInUp">
+                    <div class="card">
+                        <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 1</h5>
+                            <p class="card-text">Description of project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">Description of project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card">
+                        <img src="img/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">Description of project 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </body>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animated wow fadeIn">Contact Me</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3 animated wow fadeInLeft">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3 animated wow fadeInRight">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="mb-3 animated wow fadeIn">
+                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="text-center animated wow fadeInUp">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Prem Thapa Magar. All rights reserved.</p>
+        <p>Follow me: 
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </p>
+    </footer>
+
+    <!-- Initialize WOW.js -->
+    <script>
+        new WOW().init();
+    </script>
+</body>
 </html>
