@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Title -->
-    <title>Prem Thapa Magar - Portfolio</title>
+    <title>Nolaraj Poudel - Portfolio</title>
     <link rel="icon" type="image/png" href="img/myPhoto.png">
 
     <!-- Metas -->
@@ -21,66 +21,118 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.js"></script>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .colorful-text {
+            background: linear-gradient(90deg, #ff6f61, #ffeb3b, #4caf50, #2196f3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <!-- Header Section -->
-    <header class="container-fluid p-5 text-center bg-primary text-white">
-        <h1 class="animated wow fadeInDown">Prem Thapa Magar</h1>
+    <header class="container-fluid p-5 text-center text-white" style="background: linear-gradient(135deg, #2193b0, #6dd5ed);">
+        <h1 class="animated wow fadeInDown">Nolaraj Poudel</h1>
         <p class="animated wow fadeInUp">Structural Engineer | Programmer | Researcher</p>
-        <a href="#about" class="btn btn-light btn-lg animated wow fadeIn">Learn More</a>
+        <div class="animated wow fadeIn">
+            <img src="img/myPhoto.png" alt="Nolaraj Poudel" class="rounded-circle" style="width: 150px; height: 150px;">
+        </div>
+        <a href="#about" class="btn btn-light btn-lg mt-3 animated wow fadeIn">Learn More</a>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container py-5">
-        <h2 class="text-center mb-4 animated wow fadeIn">About Me</h2>
+        <h2 class="text-center mb-4 colorful-text animated wow fadeIn">About Me</h2>
         <div class="row">
             <div class="col-md-4 text-center animated wow fadeInLeft">
-                <img src="img/profile.jpg" alt="Prem Thapa Magar" class="img-fluid rounded-circle">
+                <img src="img/profile.jpg" alt="Nolaraj Poudel" class="img-fluid rounded-circle">
             </div>
             <div class="col-md-8 animated wow fadeInRight">
                 <p>
-                    Hi, I'm Prem Thapa Magar from Tanahun, Nepal. With a passion for engineering, coding, and research,
-                    I strive to create impactful solutions to real-world problems. I'm also a proud supporter of the
-                    Karnali Yaks in the Nepal Premier League!
+                    Hello! I'm Nolaraj Poudel, a Structural Engineer, Programmer, and Researcher. I have a passion for 
+                    solving engineering challenges, creating innovative software solutions, and advancing research in civil engineering.
                 </p>
                 <p>
-                    Let's connect and work together to build a brighter future.
+                    I thrive on creativity, critical thinking, and collaboration. Let's connect and make great things happen!
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="bg-light py-5">
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-4 animated wow fadeIn">My Work</h2>
+            <h2 class="text-center mb-4 colorful-text animated wow fadeIn">My Skills</h2>
+            <p class="text-center animated wow fadeInUp">Programming, Structural Analysis, Data Visualization, and more.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 colorful-text animated wow fadeIn">Projects</h2>
             <div class="row">
                 <div class="col-md-4 mb-4 animated wow fadeInUp">
                     <div class="card">
-                        <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
+                        <img src="img/project_google_data.jpg" class="card-img-top" alt="Google Data Extraction">
                         <div class="card-body">
-                            <h5 class="card-title">Project Title 1</h5>
-                            <p class="card-text">Description of project 1.</p>
+                            <h5 class="card-title">Google Data Extraction</h5>
+                            <p class="card-text">Efficiently extracting and analyzing data from Google APIs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card">
-                        <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+                        <img src="img/project_pmm.jpg" class="card-img-top" alt="PMM Curve Plots">
                         <div class="card-body">
-                            <h5 class="card-title">Project Title 2</h5>
-                            <p class="card-text">Description of project 2.</p>
+                            <h5 class="card-title">PMM Curve Plots</h5>
+                            <p class="card-text">Creating PMM curves for hollow piers used in bridges.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.4s">
                     <div class="card">
-                        <img src="img/project3.jpg" class="card-img-top" alt="Project 3">
+                        <img src="img/project_other.jpg" class="card-img-top" alt="Other Project">
                         <div class="card-body">
-                            <h5 class="card-title">Project Title 3</h5>
-                            <p class="card-text">Description of project 3.</p>
+                            <h5 class="card-title">Other Research Work</h5>
+                            <p class="card-text">Exploring innovative engineering solutions.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 colorful-text animated wow fadeIn">Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 animated wow fadeInUp">
+                    <img src="img/gallery1.jpg" alt="Gallery Image 1" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/gallery2.jpg" alt="Gallery Image 2" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-4 animated wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="img/gallery3.jpg" alt="Gallery Image 3" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -89,7 +141,7 @@
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4 animated wow fadeIn">Contact Me</h2>
+            <h2 class="text-center mb-4 colorful-text animated wow fadeIn">Contact Me</h2>
             <form>
                 <div class="row">
                     <div class="col-md-6 mb-3 animated wow fadeInLeft">
@@ -111,7 +163,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Prem Thapa Magar. All rights reserved.</p>
+        <p>&copy; 2025 Nolaraj Poudel. All rights reserved.</p>
         <p>Follow me: 
             <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
             <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
